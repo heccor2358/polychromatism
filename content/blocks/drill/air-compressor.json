@@ -1,0 +1,33 @@
+{
+  "name": "air compressor",
+  "type": "genericCrafter",
+  "health": 125,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "requirements": [
+    "metaglass/25",
+    "copper/45",
+    "graphite/35",
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.4
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "FFFFFF",
+        "glowIntensity": 0.9
+      }
+    ]
+  },
+  "category": "production",
+  "outputLiquid": "air/0.4",
+  "research": "kiln",
+}
