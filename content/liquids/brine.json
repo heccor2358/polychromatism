@@ -4,5 +4,6 @@
 	"name": "brine",
 	"description": "",
 	"color": "A3C6D6",
+	"effect": "salted",
 	"research": "metaglass"
 }
