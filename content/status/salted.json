@@ -1,0 +1,8 @@
+{
+  "name": "salted",
+  "healthMultiplier": 0.8,
+  "speedMultiplier": 0.9,
+  "color": "A3C6D6",
+  "affinities": [ "corroded", "shocked" ],
+  "opposites": [ "burning", "melting" ]
+}
