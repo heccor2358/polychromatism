@@ -3,5 +3,6 @@
   "type": "floor",
   "variants": 3,
   "mapColor": "7AC98C",
+  "playerUnmineable": true,
   "itemDrop": "limestone"
 }

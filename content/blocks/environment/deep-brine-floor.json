@@ -6,5 +6,6 @@
   "isLiquid": true,
   "drownTime": 360,
   "liquidMultiplier": 1.5,
+  "status": "salted",
   "liquidDrop": "brine"
 }

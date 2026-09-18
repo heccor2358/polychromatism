@@ -4,6 +4,7 @@
   "variants": 1,
   "cacheLayer": "water",
   "isLiquid": true,
-  "shallow": true
+  "shallow": true,
+  "status": "salted",
   "liquidDrop": "brine"
 }

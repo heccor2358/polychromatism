@@ -1,0 +1,7 @@
+variants: 0
+attributes: {
+  water: -0.3
+  oil: 0.3
+}
+itemDrop: halite
+playerUnmineable: true

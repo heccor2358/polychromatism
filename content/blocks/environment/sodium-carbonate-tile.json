@@ -3,5 +3,6 @@
   "type": "floor",
   "variants": 3,
   "mapColor": "CBB1B1",
+  "playerUnmineable": true,
   "itemDrop": "sodium-carbonate"
 }
