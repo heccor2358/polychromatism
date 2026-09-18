@@ -1,0 +1,16 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "air",
+	"description": " ",
+	"temperature": 0.5,
+	"flammability": 0,
+	"viscosity": 0,
+	"heatCapacity": 0,
+	"explosiveness": 0,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "EBFAFF",
+	"research": "metaglass"
+}

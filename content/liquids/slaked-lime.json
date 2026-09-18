@@ -1,0 +1,8 @@
+{
+	"type": "liquid",
+	"coolant": false,
+	"name": "slaked lime",
+	"description": "",
+	"color": "6CE6AA",
+	"research": "quicklime"
+}
