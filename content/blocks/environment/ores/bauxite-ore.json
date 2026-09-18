@@ -1,0 +1,7 @@
+{
+	"name": "bauxite ore",
+	"type": "oreBlock",
+	"variants": 3,
+	"oreDefault": true,
+	"itemDrop": "bauxite"
+}

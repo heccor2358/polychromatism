@@ -1,0 +1,7 @@
+{
+	"name": "nickel ore",
+	"type": "oreBlock",
+	"variants": 3,
+	"oreDefault": true,
+	"itemDrop": "nickel"
+}
