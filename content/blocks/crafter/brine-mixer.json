@@ -1,0 +1,48 @@
+{
+  "name": "brine mixer",
+  "type": "genericCrafter",
+  "health": 180,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "monel-alloy/50",
+    "copper/50",
+    "graphite/35"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.7,
+    "items": {
+      "items": [
+        "halite/1"
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.2
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "brine",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "category": "crafting",
+  "outputLiquid": "brine/0.2",
+  "research": "monel-alloy-smelter"
+}

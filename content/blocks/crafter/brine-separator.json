@@ -1,0 +1,65 @@
+{
+  "name": "brine separator",
+  "type": "Separator",
+  "health": 180,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "requirements": [
+    "monel-alloy/60",
+    "graphite/35",
+    "silicon/35",
+    "copper/25"
+  ],
+  "craftTime": 30,
+  "consumes": {
+    "power": 2,
+    "liquids": [
+      {
+        "liquid": "brine",
+         "amount": 0.2
+       }
+     ]
+  },
+  "category": "crafting",
+  "results": [
+    {
+      "item": "magnesium",
+      "amount": 3
+    }
+    {
+      "item": "potassium",
+      "amount": 2
+    }
+    {
+      "item": "boron",
+      "amount": 1
+    }
+    {
+      "item": "lithium",
+      "amount": 1
+    }
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "brine",
+        "suffix": "-bottom"
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-rotator",
+       "spinSprite": true,
+       "rotateSpeed": 4,
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "ambientSound": "loopMachine2",
+  "research": "brine-mixer"
+}
