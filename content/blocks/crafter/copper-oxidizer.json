@@ -1,0 +1,52 @@
+{
+  "name": "copper oxidizer",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "silicon/55",
+    "copper/25",
+    "alumina/35",
+    "metaglass/35"
+  ],
+  "craftTime": 90,
+  "consumes": {
+    "power": 0.8,
+    "items": {
+      "items": [
+        "copper/3",
+        "coal/1"
+      ]
+    },
+    "liquid": {
+      "liquid": "air",
+      "amount": 0.1
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "8295C8"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "FFFFFF80",
+        "glowIntensity": 0.9
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "category": "crafting",
+  "outputItem": "cupric-oxide/3",
+  "research": "air-compressor"
+}

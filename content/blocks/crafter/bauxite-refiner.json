@@ -1,0 +1,29 @@
+{
+  "name": "bauxite refiner",
+  "type": "genericCrafter",
+  "health": 125,
+  "size": 2,
+  "itemCapacity": 10,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "lead/35",
+    "silicon/50",
+    "graphite/45",
+    "copper/25"
+  ],
+  "craftTime": 120,
+  "consumes": {
+    "power": 1.2,
+    "items": {
+      "items": [
+        "bauxite/3",
+        "sodium-hydroxide/2"
+      ]
+    }
+  },
+  "ambientSound": "loopMachine2",
+  "category": "crafting",
+  "outputItem": "alumina/2",
+  "research": "caustic-soda-mixer"
+}

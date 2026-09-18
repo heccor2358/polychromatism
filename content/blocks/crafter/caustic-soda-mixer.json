@@ -1,0 +1,56 @@
+{
+  "name": "caustic soda mixer",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "lead/50",
+    "silicon/25",
+    "graphite/30"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        "sodium-carbonate/1"
+      ]
+    },
+    "liquid": {
+      "liquid": "slaked-lime",
+      "amount": 0.05
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "slaked-lime",
+        "suffix": "-bottom"
+      },
+     {
+       "type": "DrawRegion",
+       "suffix": "-rotator",
+       "spinSprite": true,
+       "rotateSpeed": 2,
+      },
+      {
+        "type": "DrawDefault"
+      }
+      {
+       "type": "DrawRegion",
+       "suffix": "-cap",
+      },
+    ]
+  },
+  "ambientSound": "loopMachineSpin",
+  "category": "crafting",
+  "outputItems": [
+    "sodium-hydroxide/2",
+    "limestone/1"
+  ],
+  "research": "slaked-lime-mixer"
+}

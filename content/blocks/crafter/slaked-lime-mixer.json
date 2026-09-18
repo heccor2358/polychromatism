@@ -1,0 +1,48 @@
+{
+  "name": "slaked lime mixer",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "copper/30",
+    "graphite/15",
+    "metaglass/25"
+  ],
+  "craftTime": 30,
+  "consumes": {
+    "power": 0.25,
+    "items": {
+      "items": [
+        "quicklime/1"
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.1
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "slaked-lime",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "category": "crafting",
+  "outputLiquid": "slaked-lime/0.1",
+  "research": "lime-kiln"
+}

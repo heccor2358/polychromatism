@@ -1,0 +1,41 @@
+{
+  "name": "monel alloy smelter",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "itemCapacity": 15,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "copper/45",
+    "alumina/35",
+    "silicon/35"
+  ],
+  "craftTime": 120,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        "nickel/4",
+        "copper/2"
+      ],
+    },
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "CCA38F"
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "category": "crafting",
+  "outputItem": "monel-alloy/3",
+  "research": "bauxite-refiner",
+}

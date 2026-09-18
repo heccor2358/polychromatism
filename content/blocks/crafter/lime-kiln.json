@@ -1,0 +1,39 @@
+{
+  "name": "lime kiln",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "copper/30",
+    "graphite/45"
+  ],
+  "craftTime": 120,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        "limestone/2",
+        "coal/1"
+      ]
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "A3F1B5"
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "category": "crafting",
+  "outputItem": "quicklime/2",
+  "research": "graphite-press"
+}
