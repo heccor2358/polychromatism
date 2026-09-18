@@ -1,0 +1,10 @@
+{
+  "name": "deep brine",
+  "type": "floor",
+  "variants": 1,
+  "cacheLayer": "water",
+  "isLiquid": true,
+  "drownTime": 360,
+  "liquidMultiplier": 1.5,
+  "liquidDrop": "brine"
+}

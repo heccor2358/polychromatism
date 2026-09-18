@@ -1,0 +1,9 @@
+{
+  "name": "salt brine",
+  "type": "floor",
+  "variants": 1,
+  "cacheLayer": "water",
+  "isLiquid": true,
+  "shallow": true
+  "liquidDrop": "brine"
+}

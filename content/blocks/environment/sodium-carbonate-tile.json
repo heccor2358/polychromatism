@@ -1,0 +1,7 @@
+{
+  "name": "sodium carbonate",
+  "type": "floor",
+  "variants": 3,
+  "mapColor": "CBB1B1",
+  "itemDrop": "sodium-carbonate"
+}

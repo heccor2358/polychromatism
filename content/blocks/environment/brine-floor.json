@@ -1,0 +1,8 @@
+{
+  "name": "brine",
+  "type": "floor",
+  "variants": 1,
+  "cacheLayer": "water",
+  "isLiquid": true,
+  "liquidDrop": "brine"
+}
