@@ -1,0 +1,58 @@
+{
+  "type": "consumeGenerator",
+  "name": "Gas Turbine",
+  "description": "",
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "powerProduction": 10,
+  "itemDuration": 60,
+  "consumes": {
+    "liquid": {
+      "liquid": "methane",
+      "amount": 0.1
+    }
+  },
+  "requirements": [
+    "copper/85",
+    "graphite/50",
+    "alumina/35",
+    "titanium/60",
+    "silicon/45"
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault",
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "spinSprite": true,
+        "rotateSpeed": 9.0,
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "808080",
+        "glowIntensity": 0.9
+      }
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "category": "power",
+  "research": {
+    "parent": "steam-generator",
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "methane"
+      }
+    ]
+  }
+}
