@@ -1,0 +1,12 @@
+{
+  "type": "SteamVent",
+  "name": "brine vent",
+  "variants": 2,
+  "parent": "salt",
+  "blendGroup": "salt",
+  "effect": "ventSteam",
+  "effectColor": "A3C6D6",
+  "attributes": {
+    "brine": 1
+  }
+}

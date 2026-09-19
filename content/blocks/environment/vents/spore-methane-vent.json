@@ -1,0 +1,12 @@
+{
+  "type": "SteamVent",
+  "name": "methane vent",
+  "variants": 2,
+  "parent": "moss",
+  "blendGroup": "moss",
+  "effect": "ventSteam",
+  "effectColor": "A3B1DB",
+  "attributes": {
+    "methane": 1
+  }
+}
