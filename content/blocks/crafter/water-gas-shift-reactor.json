@@ -1,0 +1,62 @@
+{
+  "name": "water-gas shift reactor",
+  "type": "genericCrafter",
+  "health": 175,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "graphite/75",
+    "titanium/50",
+    "silicon/15",
+    "metaglass/25",
+    "cupric-oxide/20",
+    "alumina/20"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.8,
+    "liquids": [
+      {
+        "liquid": "water",
+        "amount": 0.2
+      },
+      {
+        "liquid": "synthesis-gas",
+        "amount": 0.4
+       }
+    ]
+  },
+  "ambientSound": "loopSteam",
+  "category": "crafting",
+  "liquidOutputDirections": [0, 1],
+  "outputLiquids": [
+    "hydrogen/0.4",
+    "carbon-monoxide/0.1"
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "synthesis-gas",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidOutputs"
+      },
+    ]
+  },
+  "research": "steam-methane-reformer"
+}

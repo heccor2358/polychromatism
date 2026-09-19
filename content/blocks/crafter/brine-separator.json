@@ -14,7 +14,7 @@
   ],
   "craftTime": 30,
   "consumes": {
-    "power": 2,
+    "power": 1.25,
     "liquids": [
       {
         "liquid": "brine",
@@ -44,6 +44,10 @@
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "brine",

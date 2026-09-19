@@ -1,0 +1,74 @@
+{
+  "name": "steam methane reformer",
+  "type": "genericCrafter",
+  "health": 245,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": true,
+  "requirements": [
+    "graphite/50",
+    "silicon/75",
+    "titanium/50",
+    "copper/25",
+    "nickel/50",
+    "alumina/45"
+  ],
+  "craftTime": 120,
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        "coal/1"
+      ]
+    },
+    "liquids": [
+      {
+        "liquid": "steam",
+        "amount": 0.4
+      },
+      {
+        "liquid": "methane",
+        "amount": 0.4
+       }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "methane",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "steam",
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-mid",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "synthesis-gas",
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "808080",
+        "glowIntensity": 0.5
+      }
+      {
+        "type": "DrawDefault"
+      },
+    ]
+  },
+  "ambientSound": "loopSteam",
+  "category": "crafting",
+  "outputLiquid": "synthesis-gas/0.8",
+  "research": "methane-collector"
+}

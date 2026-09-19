@@ -40,7 +40,7 @@
       {
         "type": "DrawGlowRegion",
         "suffix": "-glow",
-        "color": "FFFFFF80",
+        "color": "80808080",
         "glowIntensity": 0.9
       }
     ]

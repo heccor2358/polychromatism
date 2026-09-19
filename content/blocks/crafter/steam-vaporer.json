@@ -1,25 +1,20 @@
 {
-  "name": "brine mixer",
+  "name": "steam vaporer",
   "type": "genericCrafter",
-  "health": 180,
+  "health": 120,
   "size": 2,
   "hasPower": true,
-  "hasItems": true,
+  "hasItems": false,
   "hasLiquids": true,
   "requirements": [
-    "monel-alloy/50",
     "copper/50",
+    "metaglass/35",
     "graphite/35"
   ],
   "craftTime": 60,
   "consumes": {
     "power": 0.7,
-    "items": {
-      "items": [
-        "halite/1"
-      ]
-    },
-    "liquid": {
+    "liquid":  {
       "liquid": "water",
       "amount": 0.2
     }
@@ -34,19 +29,28 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "water",
-        "suffix": "-bottom"
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-mid",
       },
       {
         "type": "DrawLiquidTile",
-        "drawLiquid": "brine",
-        "suffix": "-bottom"
+        "drawLiquid": "steam",
       },
       {
-        "type": "DrawDefault"
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "808080",
+        "glowIntensity": 0.5
       }
+      {
+        "type": "DrawDefault"
+      },
     ]
   },
+  "ambientSound": "loopSteam",
   "category": "crafting",
-  "outputLiquid": "brine/0.2",
-  "research": "monel-alloy-smelter"
+  "outputLiquid": "steam/0.2",
+  "research": "kiln"
 }

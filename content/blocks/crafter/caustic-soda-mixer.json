@@ -27,6 +27,10 @@
     "type": "DrawMulti",
     "drawers": [
       {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
         "type": "DrawLiquidTile",
         "drawLiquid": "slaked-lime",
         "suffix": "-bottom"
@@ -39,7 +43,7 @@
       },
       {
         "type": "DrawDefault"
-      }
+      },
       {
        "type": "DrawRegion",
        "suffix": "-cap",
