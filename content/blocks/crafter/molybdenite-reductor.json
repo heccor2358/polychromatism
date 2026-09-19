@@ -1,0 +1,59 @@
+{
+  "name": "molybdenite reductor",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "titanium/70",
+    "copper/35",
+    "alumina/45",
+    "graphite/35",
+    "silicon/25"
+  ],
+  "craftTime": 80,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        "molybdenum-trioxide/2",
+      ],
+    },
+    "liquid": {
+      "liquid": "hydrogen",
+      "amount": 0.2
+    }
+  },
+  "category": "crafting",
+  "outputItem": "molybdenum/2",
+  "liquidOutputDirections": [ 0 ],
+  "outputLiquid": "water/0.2",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "20202020",
+        "glowIntensity": 0.9
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "research": {
+    "parent": "molybdenite-roaster",
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "hydrogen"
+      }
+    ]
+  }
+}

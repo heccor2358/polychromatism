@@ -1,0 +1,60 @@
+{
+  "name": "molybdenite roaster",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "titanium/70",
+    "copper/35",
+    "alumina/45",
+    "silicon/25",
+  ],
+  "craftTime": 40,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        "molybdenite/2",
+      ],
+    },
+    "liquid": {
+      "liquid": "air",
+      "amount": 0.2
+    }
+  },
+  "category": "crafting",
+  "outputItem": "molybdenum-trioxide/1",
+  "outputLiquid": "sulfur-dioxide/0.2",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "8D7C7C"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "404040",
+        "glowIntensity": 0.5
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "research": {
+    "parent": "bauxite-refiner",
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "molybdenite"
+      }
+    ]
+  }
+}
