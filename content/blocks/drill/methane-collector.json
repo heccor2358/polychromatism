@@ -1,0 +1,44 @@
+{
+  "name": "methane collector",
+  "type": "AttributeCrafter",
+  "health": 230,
+  "size": 3,
+  "hasLiquids": true,
+  "attribute": "methane",
+  "requirements": [
+    "lead/75",
+    "metaglass/50",
+    "alumina/35",
+    "graphite/35",
+    "titanium/25"
+  ],
+  "craftTime": 60,
+  "baseEfficiency": 0, //efficiency at 0 required attribute tiles below block
+  "boostScale": 0.111112, //(x=1÷t), how much tiles(t) is needed to be at 100% efficiency, preferably 1 defided by block area
+  "maxBoost": 2, //how much boost from tiles it can max
+  "minEfficiency": 9, //can't be placed if boosted less than x tiles
+  "displayEfficiencyScale": 1,
+  "squareSprite": false,
+  "category": "production",
+  "outputLiquid": "methane/0.4",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-rotator",
+       "spinSprite": true,
+       "rotateSpeed": 3,
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-top",
+      },
+    ]
+  },
+  "ambientSound": "none",
+  "research": "cultivator"
+}
