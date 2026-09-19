@@ -1,0 +1,8 @@
+{
+  "type": "material",
+  "name": "molybdenite",
+  "description": "",
+  "color": "745343",
+  "hardness": 3,
+  "research": "titanium"
+}
