@@ -1,0 +1,12 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "sulfur dioxide",
+	"description": " ",
+	"temperature": 0.5,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "e9ff92",
+	"research": "molybdenite"
+}
