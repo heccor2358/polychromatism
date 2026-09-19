@@ -1,11 +1,8 @@
 {
-	"name": "polychromatism",
-	"displayName": "Polychromatism",
-	"author": "[cyan[]]heccor",
-	"version": "0.3.0",
-	"description": "this mod is in development. 
-it only has somewhat finished content instead of having all in development content",
-    "repo": "heccor2358/polychromatism",
-    "hidden": false,
-	"minGameVersion": "160.3"
+	"name": "my mod",
+	"author": "heccor",
+	"version": "pre-alpha 1.0",
+	"description": "a mod I am developing",
+	"minGameVersion": "159",
+	"main": "scripts/main.js"
 }
