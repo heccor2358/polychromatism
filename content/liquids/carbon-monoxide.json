@@ -1,0 +1,13 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "carbon monoxide",
+	"description": "",
+	"temperature": 0.5,
+	"flammability": 0.45,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "373737",
+	"research": "coal"
+}

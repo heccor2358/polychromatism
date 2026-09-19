@@ -1,0 +1,12 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "methane",
+	"description": " ",
+	"flammability": 0.8,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "a3b1db",
+	"research": "spore-pod"
+}

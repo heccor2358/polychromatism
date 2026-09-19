@@ -1,0 +1,11 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"name": "steam",
+	"description": " ",
+	"temperature": 0.75,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "efefef",
+	"research": "water"
+}

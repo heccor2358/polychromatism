@@ -1,0 +1,13 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "synthesis gas",
+	"description": "",
+	"flammability": 0.9,
+	"explosiveness": 0.1,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "454545",
+	"research": "methane"
+}
