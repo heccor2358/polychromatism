@@ -1,0 +1,7 @@
+{
+	"name": "molybdenite",
+	"type": "oreBlock",
+	"variants": 3,
+	"oreDefault": true,
+	"itemDrop": "molybdenite"
+}

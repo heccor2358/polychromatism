@@ -1,0 +1,7 @@
+{
+	"name": "chromium",
+	"type": "oreBlock",
+	"variants": 3,
+	"oreDefault": true,
+	"itemDrop": "chromium"
+}
