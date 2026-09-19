@@ -1,8 +1,0 @@
-{
-	"name": "my mod",
-	"author": "heccor",
-	"version": "pre-alpha 1.0",
-	"description": "a mod I am developing",
-	"minGameVersion": "159",
-	"main": "scripts/main.js"
-}
