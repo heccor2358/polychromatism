@@ -1,0 +1,61 @@
+{
+  "name": "liquid air fractional distillator",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "lead/50",
+    "metaglass/20",
+    "graphite/20",
+    "alumina/30",
+    "silicon/35"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.5,
+    "liquid": {
+      "liquid": "liquid-air",
+      "amount": 0.4
+    }
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [0, 1, 2],
+  "outputLiquids": [ 
+    "nitrogen/0.3",
+    "oxygen/0.1",
+    "argon/0.05"
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "argon",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "nitrogen",
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidOutputs"
+      },
+    ]
+  },
+  "ignoreLiquidFullness": false,
+  "research": "air-liquefier"
+}
