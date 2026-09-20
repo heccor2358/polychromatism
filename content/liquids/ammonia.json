@@ -1,0 +1,16 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "ammonia",
+	"description": " ",
+	"temperature": 0.5,
+	"flammability": 0.2,
+	"viscosity": 0,
+	"heatCapacity": 0.5,
+	"explosiveness": 0.1,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "D3D9BD",
+	"research": "water"
+}
