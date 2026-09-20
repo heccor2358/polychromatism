@@ -1,0 +1,44 @@
+{
+  "name": "chromo-molybdenum alloy forge",
+  "type": "genericCrafter",
+  "health": 240,
+  "size": 3,
+  "itemCapacity": 25,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "titanium/125",
+    "copper/50",
+    "silicon/35",
+    "alumina/95",
+    "graphite/75",
+  ],
+  "craftTime": 80,
+  "consumes": {
+    "power": 3.5,
+    "items": {
+      "items": [
+        "chromium/9",
+        "pyratite/2",
+        "molybdenum/4"
+      ],
+    },
+  },
+  "category": "crafting",
+  "outputItem": "chromo-molybdenum-alloy/4",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "0000FF"
+      },
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "research": "molybdenite-reductor"
+}
