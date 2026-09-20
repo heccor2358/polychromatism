@@ -1,0 +1,11 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "oxygen",
+	"description": " ",
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "cdffff",
+	"research": "liquid-air"
+}

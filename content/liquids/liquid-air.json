@@ -1,0 +1,9 @@
+{
+	"type": "liquid",
+	"coolant": false,
+	"name": "liquid air",
+	"description": "",
+	"temperature": 0,
+	"color": "DEFFF6",
+	"research": "air"
+}

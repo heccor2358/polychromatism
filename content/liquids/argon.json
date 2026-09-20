@@ -1,0 +1,11 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"name": "argon",
+	"description": " ",
+	"heatCapacity": 0.6,
+    "boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "F83AFF",
+	"research": "liquid-air"
+}
