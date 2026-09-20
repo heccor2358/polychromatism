@@ -1,0 +1,67 @@
+{
+  "name": "ammonia compressor",
+  "type": "genericCrafter",
+  "health": 240,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "requirements": [
+    "copper/75",
+    "nickel/125",
+    "metaglass/25",
+    "chromo-molybdenum-alloy/50",
+    "titanium/100"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 2.5,
+    "liquids": [
+      {
+        "liquid": "nitrogen",
+        "amount": 0.2
+      },
+      {
+        "liquid": "hydrogen",
+        "amount": 0.6
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "hydrogen",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "nitrogen",
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-mid",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "ammonia",
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "808080",
+        "glowIntensity": 0.9
+      }
+      {
+        "type": "DrawDefault"
+      },
+    ]
+  },
+  "ambientSound": "loopSteam",
+  "category": "crafting",
+  "outputLiquid": "ammonia/0.4",
+  "research": "steam-methane-reformer"
+}
