@@ -35,8 +35,8 @@
   "category": "crafting",
   "liquidOutputDirections": [0, 1],
   "outputLiquids": [
-    "hydrogen/0.4",
-    "carbon-monoxide/0.1"
+    "hydrogen/0.6",
+    "carbon-monoxide/0.15"
   ],
   "drawer": {
     "type": "DrawMulti",
