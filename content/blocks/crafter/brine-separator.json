@@ -51,7 +51,6 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "brine",
-        "suffix": "-bottom"
       },
       {
        "type": "DrawRegion",

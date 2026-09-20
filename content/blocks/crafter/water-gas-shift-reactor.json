@@ -43,12 +43,11 @@
     "drawers": [
       {
        "type": "DrawRegion",
-       "suffix": "-bottom",
+       "suffix": "-bottom"
       },
       {
         "type": "DrawLiquidTile",
-        "drawLiquid": "synthesis-gas",
-        "suffix": "-bottom"
+        "drawLiquid": "synthesis-gas"
       },
       {
         "type": "DrawDefault"

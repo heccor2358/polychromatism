@@ -34,12 +34,10 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "water",
-        "suffix": "-bottom"
       },
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "brine",
-        "suffix": "-bottom"
       },
       {
         "type": "DrawDefault"

@@ -33,7 +33,6 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "slaked-lime",
-        "suffix": "-bottom"
       },
      {
        "type": "DrawRegion",
