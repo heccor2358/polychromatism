@@ -19,6 +19,26 @@
       "amount": 0.4
     }
   },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "air",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "liquid-air",
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
   "category": "crafting",
   "outputLiquid": "liquid-air/0.4",
   "research": "air-compressor"
