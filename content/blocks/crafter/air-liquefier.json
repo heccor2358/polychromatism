@@ -1,0 +1,25 @@
+{
+  "name": "air liquefier",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "requirements": [
+    "lead/35",
+    "copper/25",
+    "alumina/45",
+    "metaglass/10",
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.5,
+    "liquid": {
+      "liquid": "air",
+      "amount": 0.4
+    }
+  },
+  "category": "crafting",
+  "outputLiquid": "liquid-air/0.4",
+  "research": "air-compressor"
+}
