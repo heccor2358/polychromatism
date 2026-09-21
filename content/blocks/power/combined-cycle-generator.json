@@ -1,26 +1,32 @@
 {
   "type": "consumeGenerator",
-  "name": "Gas Turbine",
+  "name": "combined cycle generator",
   "description": "",
-  "size": 2,
+  "size": 3,
   "hasPower": true,
   "hasLiquids": true,
-  "powerProduction": 8.2,
+  "powerProduction": 16.5,
   "itemDuration": 60,
   "consumes": {
-    "liquid": {
-      "liquid": "methane",
-      "amount": 0.1
-    }
+    "liquids": [
+      {
+        "liquid": "methane",
+        "amount": 0.1
+      },
+      {
+        "liquid": "water",
+        "amount": 0.2
+      }
+    ]
   },
   "requirements": [
-    "copper/85",
-    "graphite/50",
+    "lead/80",
+    "graphite/35",
     "alumina/35",
-    "titanium/60",
-    "silicon/45"
+    "silicon/60",
+    "titanium/30"
   ],
-  "drawer": {
+  /*"drawer": {
     "type": "DrawMulti",
     "drawers": [
       {
@@ -43,16 +49,8 @@
         "suffix": "-top"
       }
     ]
-  },
+  },*/
   "ambientSound": "loopSmelter",
   "category": "power",
-  "research": {
-    "parent": "steam-generator",
-    "objectives": [
-      {
-        "type": "Research",
-        "content": "methane"
-      }
-    ]
-  }
+  "research": "gas-turbine",
 }
