@@ -1,0 +1,62 @@
+{
+  "name": "incubator",
+  "type": "AttributeCrafter",
+  "health": 230,
+  "size": 3,
+  "hasLiquids": true,
+  "hasItems": true,
+  "hasPower": true,
+  "attribute": "spores",
+  "requirements": [
+    "lead/45",
+    "nickel/75",
+    "copper/35",
+    "silicon/25",
+    "titanium/50"
+  ],
+  "craftTime": 75,
+  "consumes": {
+    "power": 3.75,
+    "liquids": [
+      {
+        "liquid": "water",
+        "amount": 0.6
+      },
+      {
+        "liquid": "ammonia",
+        "amount": 0.1,
+        "padding": 7
+      }
+    ]
+  },
+  "baseEfficiency": 1, //efficiency at 0 required attribute tiles below block
+  "boostScale": 1, //how much tile boost, for example 0.5 is two tiles attribute equals to 1 tile boost
+  "maxBoost": 4, //how much boost from tiles it can max
+  "minEfficiency": 0, //can't be placed if boosted less than x tiles
+  "displayEfficiencyScale": 1,
+  "category": "production",
+  "outputItem": "spore-pod/3",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "ammonia",
+      },
+    ]
+  },
+  "ambientSound": "loopBio",
+  "research": {
+    "parent": "cultivator",
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "ammonia"
+      }
+    ]
+  }
+}
