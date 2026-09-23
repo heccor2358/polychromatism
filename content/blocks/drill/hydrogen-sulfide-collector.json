@@ -14,11 +14,30 @@
   ],
   "craftTime": 60,
   "baseEfficiency": 0, //efficiency at 0 required attribute tiles
-  "boostScale": 0.111112, //(x=1÷t), how much tiles(t) is needed to be at 100% efficiency, preferably 1 defided by block area
+  "boostScale": 0.111112, //how much tile boost, for example 0.5 is two tiles attribute equals to 1 tile boost
   "maxBoost": 2, //how much boost from tiles it can max
   "minEfficiency": 9, //can't be placed if boosted less than x
   "displayEfficiencyScale": 1,
   "category": "production",
   "outputLiquid": "hydrogen-sulfide/0.4",
-  "research": "kiln" //kiln
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-rotator",
+       "spinSprite": true,
+       "rotateSpeed": 3,
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-top",
+      },
+    ]
+  },
+  "ambientSound": "none",
+  "research": "kiln"
 }
