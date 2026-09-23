@@ -1,0 +1,24 @@
+{
+  "name": "hydrogen sulfide collector",
+  "type": "AttributeCrafter",
+  "health": 250,
+  "size": 3,
+  "hasLiquid": true,
+  "attribute": "hydrogen-sulfide",
+  "requirements": [
+    "lead/75",
+    "metaglass/25",
+    "graphite/25",
+    "alumina/50",
+    "monel-alloy/45"
+  ],
+  "craftTime": 60,
+  "baseEfficiency": 0, //efficiency at 0 required attribute tiles
+  "boostScale": 0.111112, //(x=1÷t), how much tiles(t) is needed to be at 100% efficiency, preferably 1 defided by block area
+  "maxBoost": 2, //how much boost from tiles it can max
+  "minEfficiency": 9, //can't be placed if boosted less than x
+  "displayEfficiencyScale": 1,
+  "category": "production",
+  "outputLiquid": "hydrogen-sulfide/0.4",
+  "research": "kiln" //kiln
+}
