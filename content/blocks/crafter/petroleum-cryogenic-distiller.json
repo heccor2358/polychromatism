@@ -1,5 +1,5 @@
 {
-  "name": "petroleum refine station",
+  "name": "petroleum cryogenic distiller",
   "type": "genericCrafter",
   "health": 255,
   "size": 3,
