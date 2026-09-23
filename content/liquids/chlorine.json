@@ -1,0 +1,11 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "chlorine",
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+    "effect": "corroded",
+	"color": "A3C944",
+	"research": "hydrogen-chloride"
+}

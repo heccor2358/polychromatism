@@ -1,0 +1,11 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "hydrogen chloride",
+	"boilPoint": 0.1,
+	"vaporEffect": "vapor",
+	"effect": "corroded",
+	"color": "9DE1EA",
+	"research": "salt"
+}

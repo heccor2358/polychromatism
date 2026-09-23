@@ -1,0 +1,12 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "ethylene",
+	"flammability": 0.8,
+	"explosiveness": 0.7,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "a1dbcd",
+	"research": "petroleum"
+}

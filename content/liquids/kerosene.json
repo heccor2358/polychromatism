@@ -1,0 +1,9 @@
+{
+	"type": "liquid",
+	"coolant": false,
+	"name": "kerosene",
+	"flammability": 0.3,
+	"explosiveness": 1.1,
+	"color": "6ba4db",
+	"research": "oil"
+}

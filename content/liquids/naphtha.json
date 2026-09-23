@@ -1,0 +1,9 @@
+{
+	"type": "liquid",
+	"coolant": false,
+	"name": "naphtha",
+	"flammability": 2,
+	"explosiveness": 2,
+	"color": "c8b17a",
+	"research": "oil"
+}
