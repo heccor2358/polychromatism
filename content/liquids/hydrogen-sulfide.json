@@ -4,7 +4,6 @@
 	"coolant": false,
 	"name": "hydrogen sulfide",
 	"description": " ",
-	"temperature": 1,
 	"flammability": 0.7,
 	"explosiveness": 0.5,
 	"boilPoint": 0.1,
