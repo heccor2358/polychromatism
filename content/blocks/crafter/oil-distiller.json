@@ -1,0 +1,67 @@
+{
+  "name": "oil distiller",
+  "type": "genericCrafter",
+  "health": 390,
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "lead/250",
+    "titanium/35",
+    "alumina/135",
+    "graphite/125",
+    "silicon/55"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 3.4,
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.9
+    }
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [0, 1, 2],
+  "outputLiquids": [
+    "kerosene/0.7",
+    "naphtha/0.7",
+    "petroleum/0.7",
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "kerosene",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "petroleum",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "naphtha",
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "808080",
+        "glowIntensity": 0.8
+      }
+      {
+        "type": "DrawLiquidOutputs"
+      },
+    ]
+  },
+  "ignoreLiquidFullness": false,
+  "research": "spore-press"
+}

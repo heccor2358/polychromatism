@@ -1,0 +1,43 @@
+{
+  "name": "hydrogen chloride redoxer",
+  "type": "genericCrafter",
+  "health": 175,
+  "size": 3,
+  "itemCapacity": 10,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "lead/60",
+    "polyethylene/45",
+    "titanium/35",
+    "silicon/50"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 2.4,
+    "items": {
+      "items": [
+        "halite/2"
+      ]
+    },
+    "liquids": [
+      {
+        "liquid": "sulfur-dioxide",
+        "amount": 0.2
+      },
+      {
+        "liquid": "oxygen",
+        "amount": 0.1
+       },
+      {
+        "liquid": "steam",
+        "amount": 0.2
+       }
+    ]
+  },
+  "category": "crafting",
+  "outputLiquid": "hydrogen-chloride/0.4",
+  //"outputItem": "sodium-sulfate/1",
+  "research": "ethylene-polymizer"
+}

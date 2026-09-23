@@ -1,0 +1,39 @@
+{
+  "name": "petroleum refine station",
+  "type": "genericCrafter",
+  "health": 255,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "rotate": true,
+  "requirements": [
+    "lead/175",
+    "titanium/35",
+    "alumina/125",
+    "monel-alloy/75",
+    "graphite/120",
+    "silicon/95"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 2.6,
+    "liquids": [
+      {
+        "liquid": "petroleum",
+        "amount": 0.7
+      },
+      {
+        "liquid": "cryofluid",
+        "amount": 0.4
+      }
+    ]
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [0, 1],
+  "outputLiquids": [
+    "ethane/0.4",
+    "propane/0.4",
+  ],
+  "ignoreLiquidFullness": false,
+  "research": "oil-distiller"
+}

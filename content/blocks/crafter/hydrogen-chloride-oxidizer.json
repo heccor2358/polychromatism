@@ -1,0 +1,39 @@
+{
+  "name": "hydrogen chloride oxidizer",
+  "type": "genericCrafter",
+  "health": 175,
+  "size": 2,
+  "itemCapacity": 10,
+  "hasPower": true,
+  "hasLiquids": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "titanium/35",
+    "polyethylene/35",
+    "metaglass/25",
+    "graphite/35"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.5,
+    "liquids": [
+      {
+        "liquid": "hydrogen-chloride",
+        "amount": 0.2
+      },
+      {
+        "liquid": "air",
+        "amount": 0.1
+       },
+    ]
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [0, 1],
+  "outputLiquids": [ 
+    "chlorine/0.2",
+    "water/0.2"
+  ],
+  "ignoreLiquidFullness": false,
+  "research": "hydrogen-chloride-redoxer"
+}

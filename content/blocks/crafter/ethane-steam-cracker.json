@@ -1,0 +1,39 @@
+{
+  "name": "ethane steam cracker",
+  "type": "genericCrafter",
+  "health": 175,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": true,
+  "rotate": true,
+  "requirements": [
+    "copper/75",
+    "lead/30",
+    "titanium/25",
+    "alumina/25",
+    "metaglass/45"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 1,
+    "liquids": [
+      {
+        "liquid": "ethane",
+        "amount": 0.2
+      },
+      {
+        "liquid": "steam",
+        "amount": 0.2
+       }
+    ]
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [1, 3],
+  "outputLiquids": [
+    "ethylene/0.2",
+    "hydrogen/0.1"
+  ],
+  "ignoreLiquidFullness": false,
+  "research": "petroleum-cryogenic-distiller"
+}

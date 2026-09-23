@@ -1,0 +1,40 @@
+{
+  "name": "ethylene polymizer",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "chromo-molybdenum-alloy/60",
+    "graphite/35",
+    "silicon/50"
+    "plastanium/45",
+    "alumina/25"
+  ],
+  "craftTime": 120,
+  "consumes": {
+    "power": 2.8,
+    "liquid": {
+      "liquid": "ethylene",
+      "amount": 0.1
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "80B1BF",
+        "glowIntensity": 0.5
+      }
+    ]
+  },
+  "category": "crafting",
+  "outputItem": "polyethylene/2"
+  "research": "ethane-steam-cracker"
+}
