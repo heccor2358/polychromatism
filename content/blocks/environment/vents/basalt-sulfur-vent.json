@@ -1,0 +1,12 @@
+{
+  "type": "SteamVent",
+  "name": "sulfur vent",
+  "variants": 2,
+  "parent": "basalt",
+  "blendGroup": "basalt",
+  "effect": "ventSteam",
+  "effectColor": "b2c366",
+  "attributes": {
+    "hydrogen-sulfide": 1
+  }
+}
