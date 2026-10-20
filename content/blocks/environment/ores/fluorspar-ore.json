@@ -1,0 +1,6 @@
+{
+	"name": "fluorite ore",
+	"type": "oreBlock",
+	"variants": 3,
+	"itemDrop": "fluorspar"
+}
