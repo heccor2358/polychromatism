@@ -5,6 +5,7 @@
   "size": 2,
   "hasPower": true,
   "hasItems": true,
+  "hasLiquids": true,
   "requirements": [
     "copper/30",
     "graphite/45"
@@ -35,5 +36,7 @@
   "ambientSound": "loopSmelter",
   "category": "crafting",
   "outputItem": "quicklime/2",
+  "outputLiquid": "carbon-dioxide/0.2",
+  "ignoreLiquidFullness": true,
   "research": "graphite-press"
 }
