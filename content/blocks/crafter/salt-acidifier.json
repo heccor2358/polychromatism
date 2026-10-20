@@ -1,5 +1,5 @@
 {
-  "name": "hydrogen chloride redoxer",
+  "name": "salt acidifier",
   "type": "genericCrafter",
   "health": 175,
   "size": 3,
@@ -15,7 +15,7 @@
   ],
   "craftTime": 60,
   "consumes": {
-    "power": 3.5,
+    "power": 1.75,
     "items": {
       "items": [
         "halite/2"
