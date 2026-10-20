@@ -7,8 +7,10 @@
   "hasLiquids": true,
   "requirements": [
     "metaglass/25",
-    "copper/45",
-    "graphite/35",
+    "silicon/10", 
+    "monel-alloy/30",
+    "nickel/35",
+    "graphite/25",
   ],
   "craftTime": 60,
   "consumes": {
@@ -29,5 +31,5 @@
   },
   "category": "production",
   "outputLiquid": "air/0.4",
-  "research": "kiln",
+  "research": "monel-alloy-forge",
 }

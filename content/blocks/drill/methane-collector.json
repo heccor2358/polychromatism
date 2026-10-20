@@ -9,8 +9,8 @@
     "lead/75",
     "metaglass/50",
     "alumina/35",
+    "nickel/45",
     "graphite/35",
-    "titanium/25"
   ],
   "craftTime": 60,
   "baseEfficiency": 0, //efficiency at 0 required attribute tiles below block

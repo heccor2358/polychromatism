@@ -3,7 +3,7 @@
   "type": "AttributeCrafter",
   "health": 250,
   "size": 3,
-  "hasLiquid": true,
+  "hasLiquids": true,
   "attribute": "hydrogen-sulfide",
   "requirements": [
     "lead/75",
