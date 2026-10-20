@@ -1,0 +1,12 @@
+{
+	"type": "liquid",
+	"name": "sulfuric acid", 
+	"temperature": 0.6,
+	"flammability": 0,
+	"viscosity": 0.5,
+	"heatCapacity": 0,
+	"explosiveness": 0,
+	//"effect": "freezing", don't ask me, I made it years ago
+	"color": "d4ff26",
+	"research": "sulfur-dioxide"
+}

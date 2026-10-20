@@ -1,0 +1,13 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "carbon dioxide",
+	"description": "",
+	"temperature": 0.5,
+	"flammability": 0.45,
+	"boilPoint": 0.1,
+    "vaporEffect": "vapor",
+	"color": "8A8A8A",
+	"research": "coal"
+}
