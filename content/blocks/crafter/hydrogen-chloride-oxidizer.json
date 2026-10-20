@@ -9,8 +9,8 @@
   "rotate": true,
   "rotateDraw": false,
   "requirements": [
-    "titanium/35",
-    "polyethylene/35",
+    "copper/35",
+    "chromo-nickel-alloy/35",
     "metaglass/25",
     "graphite/35"
   ],
@@ -35,5 +35,5 @@
     "water/0.2"
   ],
   "ignoreLiquidFullness": false,
-  "research": "hydrogen-chloride-redoxer"
+  "research": "salt-acidifier"
 }

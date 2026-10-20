@@ -35,5 +35,6 @@
     "propane/0.4",
   ],
   "ignoreLiquidFullness": false,
-  "research": "oil-distiller"
+  //"research": "oil-distiller"
+  "buildVisibility": "hidden"
 }

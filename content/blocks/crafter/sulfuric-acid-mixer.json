@@ -1,0 +1,36 @@
+{
+  "name": "sulfuric acid mixer",
+  "type": "genericCrafter",
+  "health": 200,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "requirements": [
+    "graphite/45",
+    "lead/100",
+    "metaglass/45",
+    "chromo-nickel-alloy/35",
+    "silicon/50"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 2.5,
+    "liquids": [
+      {
+        "liquid": "sulfur-dioxide",
+        "amount": 0.2
+      },
+      {
+        "liquid": "air",
+        "amount": 0.1
+       },
+      {
+        "liquid": "steam",
+        "amount": 0.2
+       }
+    ]
+  },
+  "category": "crafting",
+  "outputLiquid": "sulfuric-acid/0.2",
+  "research": "hydrogen-sulfide-oxidizer"
+}

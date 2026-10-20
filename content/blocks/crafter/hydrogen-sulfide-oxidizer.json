@@ -11,6 +11,7 @@
   "requirements": [
     "copper/35",
     "silicon/55",
+    "chromo-nickel-alloy/15",
     "metaglass/25",
     "titanium/25"
   ],
@@ -23,8 +24,8 @@
         "amount": 0.2
       },
       {
-        "liquid": "oxygen",
-        "amount": 0.3
+        "liquid": "air",
+        "amount": 0.2
        }
     ]
   },
@@ -32,7 +33,7 @@
   "liquidOutputDirections": [0, 2],
   "outputLiquids": [
     "sulfur-dioxide/0.2",
-    "steam/0.4"
+    "steam/0.2"
   ],
   "ignoreLiquidFullness": false,
   "research": "hydrogen-sulfide-collector"

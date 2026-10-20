@@ -21,7 +21,7 @@
     },
     "liquid": {
       "liquid": "water",
-      "amount": 0.1
+      "amount": 0.2
     }
   },
   "drawer": {
@@ -45,6 +45,6 @@
     ]
   },
   "category": "crafting",
-  "outputLiquid": "slaked-lime/0.1",
+  "outputLiquid": "slaked-lime/0.2",
   "research": "lime-kiln"
 }

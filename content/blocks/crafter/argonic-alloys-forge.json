@@ -1,0 +1,90 @@
+{
+  "name": "argonic alloys forge",
+  "type": "multiCrafter",
+  "health": 240,
+  "size": 3,
+  "itemCapacity": 25,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "copper/95",
+    "silicon/35",
+    "lead/25", 
+    "alumina/50",
+    "graphite/75",
+  ],
+  "jsonRecipes": [
+    {
+      "name": "argonic-Cr-Mo-alloy", 
+      "localizedName": "argonic Cr-Mo alloy", 
+      "craftTime": 80,
+      "input": {
+        "items": [
+          "ferrochromium/4",
+          "molybdenum/2", 
+          "pyratite/1"
+        ],
+        "liquids": [
+          "argon/0.1"
+        ],
+        "power": 3.5, 
+      }, 
+      "output": {
+        "items": [
+          "chromo-molybdenum-alloy/2"
+        ]
+      }, 
+      "drawer": {
+        "type": "drawMulti", 
+        "drawer": [
+          {
+            "type": " DrawDefault",
+          }, 
+          {
+            "type": "DrawFlame",
+            "suffix": "-top",
+            "flameColor": "E0EFFFFF"
+          }
+        ]
+      }
+    }, 
+    {
+      "name": "argonic-Cr-Ni-alloy", 
+      "localizedName": "argonic Cr-Ni alloy", 
+      "craftTime": 80,
+      "input": {
+        "items": [
+          "nickel/6",
+          "ferrochromium/2", 
+          "pyratite/1"
+        ],
+        "liquids": [
+          "argon/0.1"
+        ],
+        "power": 3.5, 
+      }, 
+      "output": {
+        "items": [
+          "chromo-nickel-alloy/3"
+        ]
+      }, 
+      "drawer": {
+        "type": "drawMulti", 
+        "drawer": [
+          {
+            "type": " DrawDefault",
+          }, 
+          {
+            "type": "DrawFlame",
+            "suffix": "-top",
+            "flameColor": "E0EFFFFF"
+          }
+        ]
+      }
+    }
+  ], 
+  "category": "crafting",
+  "ambientSound": "loopSmelter",
+  "research": "molybdenite-reductor"
+}

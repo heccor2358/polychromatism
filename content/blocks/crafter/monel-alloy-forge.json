@@ -1,0 +1,42 @@
+{
+  "name": "monel alloy forge",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "itemCapacity": 15,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "copper/45",
+    "alumina/35",
+    "lead/25", 
+    "silicon/35"
+  ],
+  "craftTime": 120,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        "nickel/2",
+        "copper/1"
+      ],
+    },
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "CCA38F"
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "category": "crafting",
+  "outputItem": "monel-alloy/2",
+  "research": "bauxite-refiner",
+}

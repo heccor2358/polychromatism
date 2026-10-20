@@ -7,7 +7,7 @@
   "hasItems": true,
   "hasLiquids": true,
   "requirements": [
-    "titanium/70",
+    "lead/70",
     "copper/35",
     "alumina/45",
     "silicon/25",

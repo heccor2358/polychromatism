@@ -7,9 +7,9 @@
   "hasItems": true,
   "hasLiquids": true,
   "requirements": [
-    "silicon/55",
+    "silicon/25",
     "copper/25",
-    "alumina/35",
+    "alumina/55",
     "metaglass/35"
   ],
   "craftTime": 90,

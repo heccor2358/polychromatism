@@ -11,7 +11,6 @@
   "rotateDraw": false,
   "requirements": [
     "graphite/75",
-    "titanium/50",
     "silicon/15",
     "metaglass/25",
     "cupric-oxide/20",
@@ -36,7 +35,7 @@
   "liquidOutputDirections": [0, 1],
   "outputLiquids": [
     "hydrogen/0.6",
-    "carbon-monoxide/0.15"
+    "carbon-dioxide/0.15"
   ],
   "drawer": {
     "type": "DrawMulti",

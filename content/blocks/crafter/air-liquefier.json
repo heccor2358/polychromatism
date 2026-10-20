@@ -41,5 +41,6 @@
   },
   "category": "crafting",
   "outputLiquid": "liquid-air/0.4",
-  "research": "air-compressor"
+  //"research": "air-compressor", 
+  "buildVisibility": "sandboxOnly"
 }

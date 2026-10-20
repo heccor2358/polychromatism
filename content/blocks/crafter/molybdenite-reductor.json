@@ -9,7 +9,7 @@
   "rotate": true,
   "rotateDraw": false,
   "requirements": [
-    "titanium/70",
+    "lead/70",
     "copper/35",
     "alumina/45",
     "graphite/35",

@@ -63,5 +63,6 @@
     ]
   },
   "ignoreLiquidFullness": false,
-  "research": "spore-press"
+  //"research": "spore-press"
+  "buildVisibility": "hidden"
 }

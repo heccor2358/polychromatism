@@ -35,5 +35,6 @@
     "hydrogen/0.1"
   ],
   "ignoreLiquidFullness": false,
-  "research": "petroleum-cryogenic-distiller"
+  //"research": "petroleum-cryogenic-distiller"
+  "buildVisibility": "hidden"
 }

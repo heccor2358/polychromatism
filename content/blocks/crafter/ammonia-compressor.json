@@ -9,8 +9,9 @@
     "copper/75",
     "nickel/125",
     "metaglass/25",
+    "lead/50", 
     "chromo-molybdenum-alloy/50",
-    "titanium/100"
+    "silicon/100"
   ],
   "craftTime": 60,
   "consumes": {

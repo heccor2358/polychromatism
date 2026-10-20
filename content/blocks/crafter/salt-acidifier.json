@@ -1,0 +1,33 @@
+{
+  "name": "hydrogen chloride redoxer",
+  "type": "genericCrafter",
+  "health": 175,
+  "size": 3,
+  "itemCapacity": 10,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "lead/60",
+    "chromo-nickel-alloy/45",
+    "metaglass/35",
+    "silicon/50"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 3.5,
+    "items": {
+      "items": [
+        "halite/2"
+      ]
+    },
+    "liquid": {
+      "liquid": "sulfuric-acid",
+      "amount": 0.4
+    }
+  },
+  "category": "crafting",
+  "outputLiquid": "hydrogen-chloride/0.4",
+  //"outputItem": "sodium-sulfate/1",
+  "research": "sulfuric-acid-mixer"
+}

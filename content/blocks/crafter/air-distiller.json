@@ -1,0 +1,60 @@
+{
+  "name": "air distiller",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "silicon/35", 
+    "monel-alloy/25",
+    "alumina/20", 
+    "metaglass/35"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 2.5,
+    "liquid": {
+      "liquid": "air",
+      "amount": 0.4
+    }
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [0, 1, 2],
+  "outputLiquids": [ 
+    "nitrogen/0.3",
+    "oxygen/0.1",
+    "argon/0.05"
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "oxygen",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "argon",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "nitrogen",
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidOutputs"
+      },
+    ]
+  },
+  "ignoreLiquidFullness": false,
+  "research": "air-compressor"
+}

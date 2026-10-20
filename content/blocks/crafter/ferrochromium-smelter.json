@@ -1,0 +1,42 @@
+{
+  "name": "ferrochromium smelter",
+  "type": "genericCrafter",
+  "health": 210,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "silicon/60",
+    "copper/35",
+    "alumina/45",
+    "monel-alloy/25",
+  ],
+  "craftTime": 45,
+  "consumes": {
+    "power": 2.8,
+    "items": {
+      "items": [
+        "chromite/3", 
+        "coal/2", 
+        "quicklime/2"
+      ],
+    }
+  },
+  "category": "crafting",
+  "outputItem": "ferrochromium/2",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "E0EFFFFF"
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "research": "monel-alloy-forge"
+}
