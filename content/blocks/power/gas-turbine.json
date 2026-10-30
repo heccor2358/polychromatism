@@ -47,7 +47,7 @@
   "ambientSound": "loopSmelter",
   "category": "power",
   "research": {
-    "parent": "steam-generator",
+    "parent": "polychromatismTree",
     "objectives": [
       {
         "type": "Research",
