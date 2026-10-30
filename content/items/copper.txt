@@ -1,0 +1,11 @@
+shownPlanets: [ serpulo ]
+research: { 
+  parent: [
+    {
+      node: "polychromatismTree"
+    },
+    {
+      node: "coreShard"
+    }
+  ]
+}

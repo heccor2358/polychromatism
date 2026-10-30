@@ -1,6 +1,6 @@
 {
   "name": "potassium",
-  "description": "",
   "color": "9C80FF",
+  "charge": 0.5,
   "research": "brine"
 }
