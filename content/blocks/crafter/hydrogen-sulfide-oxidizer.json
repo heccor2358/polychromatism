@@ -29,6 +29,44 @@
        }
     ]
   },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "hydrogen-sulfide",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "air",
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-mid",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "steam",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "sulfur-dioxide",
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "404040",
+        "glowIntensity": 0.2
+      }
+      {
+        "type": "DrawDefault"
+      },
+    ]
+  },
   "category": "crafting",
   "liquidOutputDirections": [0, 2],
   "outputLiquids": [

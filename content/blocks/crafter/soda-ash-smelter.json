@@ -1,0 +1,38 @@
+{
+  "name": "soda ash smelter",
+  "type": "genericCrafter",
+  "health": 260,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "lead/25",
+    "graphite/45",
+    "monel-alloy/25",
+    "silicon/25",
+  ],
+  "craftTime": 30,
+  "consumes": {
+    "power": 1.75,
+    "liquid": {
+      "liquid": "steam",
+      "amount": 0.1
+    }
+    "items": {
+      "items": [
+        "sodium-bicarbonate/1"
+      ]
+    }
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [0, 2],
+  "outputItem": "sodium-carbonate/1",
+  "outputLiquids": [
+    "water/0.1",
+    "carbon-dioxide/0.2"
+  ],
+  "research": "ammonia-mixer"
+}

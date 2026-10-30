@@ -1,0 +1,37 @@
+{
+  "name": "ammonia mixer",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "lead/45",
+    "graphite/25",
+    "silicon/20",
+    "metaglass/30"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.75,
+    "liquid": {
+      "liquid": "ammonium-chloride",
+      "amount": 0.2
+    }
+    "items": {
+      "items": [
+        "quicklime/1"
+      ]
+    }
+  },
+  "category": "crafting",
+  "liquidOutputDirections": [0, 2],
+  "outputLiquids": [
+    "ammonia/0.2",
+    "water/0.1"
+  ],
+  "research": "brine-amminator"
+}

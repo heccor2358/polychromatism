@@ -28,6 +28,6 @@
   },
   "category": "crafting",
   "outputLiquid": "hydrogen-chloride/0.4",
-  //"outputItem": "sodium-sulfate/1",
+  "outputItem": "sodium-sulfate/2",
   "research": "sulfuric-acid-mixer"
 }

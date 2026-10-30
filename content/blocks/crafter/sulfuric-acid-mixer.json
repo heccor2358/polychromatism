@@ -30,6 +30,34 @@
        }
     ]
   },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "sulfur-dioxide",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "steam",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "air",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "sulfuric-acid",
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
   "category": "crafting",
   "outputLiquid": "sulfuric-acid/0.2",
   "research": "hydrogen-sulfide-oxidizer"

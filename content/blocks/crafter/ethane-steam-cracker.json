@@ -36,5 +36,5 @@
   ],
   "ignoreLiquidFullness": false,
   //"research": "petroleum-cryogenic-distiller"
-  "buildVisibility": "hidden"
+  "buildVisibility": "debugOnly"
 }

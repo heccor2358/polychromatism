@@ -52,5 +52,5 @@
   "ambientSound": "loopSteam",
   "category": "crafting",
   "outputLiquid": "steam/0.2",
-  "research": "kiln"
+  "research": "polychromatismTree"
 }

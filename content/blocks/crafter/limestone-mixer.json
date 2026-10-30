@@ -1,0 +1,40 @@
+{
+  "name": "limestone mixer",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "requirements": [
+    "copper/30",
+    "nickel/45",
+    "graphite/25",
+    "silicon/45"
+  ],
+  "craftTime": 30,
+  "consumes": {
+    "power": 0.75,
+    "items": {
+      "items": [
+        "calcium-sulfide/1",
+      ]
+    },
+    "liquids": [
+      {
+        "liquid": "carbon-dioxide",
+        "amount": 0.1
+      },
+      {
+        "liquid": "water",
+        "amount": 0.2
+       }
+    ]
+  },
+  "ambientSound": "loopMachine2",
+  "category": "crafting",
+  "outputItem": "limestone/1",
+  "outputLiquid": "hydrogen-sulfide/0.2",
+  "ignoreLiquidFullness": true,
+  "research": "soda-ash-furnace"
+}

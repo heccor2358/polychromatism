@@ -36,5 +36,5 @@
   ],
   "ignoreLiquidFullness": false,
   //"research": "oil-distiller"
-  "buildVisibility": "hidden"
+  "buildVisibility": "debugOnly"
 }

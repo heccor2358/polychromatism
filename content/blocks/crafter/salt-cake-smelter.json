@@ -1,0 +1,44 @@
+{
+  "name": "salt cake smelter",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "copper/30",
+    "silicon/45",
+    "alumina/20",
+    "graphite/45"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        "sodium-sulfate/2",
+        "coal/1"
+      ]
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "A77FAE"
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "category": "crafting",
+  "outputItem": "sodium-sulfide/2",
+  "outputLiquid": "carbon-dioxide/0.2",
+  "ignoreLiquidFullness": true,
+  "research": "salt-acidifier"
+}

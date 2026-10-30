@@ -1,0 +1,46 @@
+{
+  "name": "soda ash furnace",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "requirements": [
+    "copper/30",
+    "graphite/25",
+    "silicon/45",
+    "alumina/50",
+    "nickel/45"
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        "sodium-sulfide/2",
+        "coal/1"
+        "limestone/2"
+      ]
+    }
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "suffix": "-top",
+        "flameColor": "CBB1B1"
+      }
+    ]
+  },
+  "ambientSound": "loopSmelter",
+  "category": "crafting",
+  "outputItems": [
+    "sodium-carbonate/2",
+    "calcium-sulfide/2"
+  ],
+  "research": "salt-cake-smelter"
+}

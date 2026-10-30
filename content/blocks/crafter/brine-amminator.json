@@ -1,0 +1,37 @@
+{
+  "name": "brine amminator",
+  "type": "genericCrafter",
+  "health": 260,
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "requirements": [
+    "metaglass/35",
+    "graphite/55",
+    "silicon/75",
+    "monel-alloy/45",
+    "nickel/50",
+  ],
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.5,
+    "liquids": [
+      {
+        "liquid": "brine",
+        "amount": 0.4
+      },
+      {
+        "liquid": "carbon-dioxide",
+        "amount": 0.4
+       },
+      {
+        "liquid": "ammonia",
+        "amount": 0.4
+       }
+    ]
+  },
+  "category": "crafting",
+  "outputLiquid": "ammonium-chloride/0.4",
+  "outputItem": "sodium-bicarbonate/2",
+  "research": "ammonia-compressor"
+}

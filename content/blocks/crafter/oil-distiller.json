@@ -64,5 +64,5 @@
   },
   "ignoreLiquidFullness": false,
   //"research": "spore-press"
-  "buildVisibility": "hidden"
+  "buildVisibility": "debugOnly"
 }
