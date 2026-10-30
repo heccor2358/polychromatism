@@ -1,0 +1,6 @@
+{
+	"name": "rutile ore",
+	"type": "oreBlock",
+	"variants": 3,
+	"itemDrop": "rutile"
+}
