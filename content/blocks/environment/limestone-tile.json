@@ -4,5 +4,6 @@
   "variants": 3,
   "mapColor": "7AC98C",
   "playerUnmineable": true,
+  "wall": "limestone-wall",
   "itemDrop": "limestone"
 }

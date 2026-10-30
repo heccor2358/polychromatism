@@ -6,5 +6,6 @@
   "isLiquid": true,
   "shallow": true,
   "status": "salted",
+  "wall": "salt-wall",
   "liquidDrop": "brine"
 }

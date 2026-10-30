@@ -1,8 +1,9 @@
 {
-  "name": "sodium carbonate",
+  "name": "caustic soda",
   "type": "floor",
   "variants": 3,
-  "mapColor": "CBB1B1",
+  "mapColor": "A38989",
   "playerUnmineable": true,
+  "wall": "sodium-carbonate-wall",
   "itemDrop": "sodium-carbonate"
 }

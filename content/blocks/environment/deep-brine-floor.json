@@ -7,5 +7,6 @@
   "drownTime": 360,
   "liquidMultiplier": 1.5,
   "status": "salted",
+  "wall": "salt-wall",
   "liquidDrop": "brine"
 }
