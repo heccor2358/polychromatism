@@ -1,0 +1,36 @@
+shownPlanets: [ serpulo, free ]
+ammoTypes: {
+  water: {
+    type: LiquidBulletType
+    liquid: water
+    knockback: 0.7
+    drag: 0.01
+    status: wet
+  }
+  slag: {
+    type: LiquidBulletType
+    liquid: slag
+    damage: 5
+    drag: 0.01
+    status: melting
+  }
+  cryofluid: {
+    type: LiquidBulletType
+    liquid: cryofluid
+    drag: 0.01
+    status: freezing
+  }
+  oil: {
+    type: LiquidBulletType
+    liquid: oil
+    drag: 0.01
+    status: tarred
+  }
+  brine: {
+    type: LiquidBulletType
+    liquid: brine
+    knockback: 0.7
+    drag: 0.01
+    status: salted
+  }
+}
