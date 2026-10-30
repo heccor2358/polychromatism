@@ -1,0 +1,11 @@
+{
+  "type": "coreBlock",
+  "name": "Polychromatism",
+  "size": 2,
+  "buildVisibility": "debugOnly",
+  "description": "random candy looking thing here? why not",
+  "research": {
+    "root": true,
+    "name": "Polychromatism"
+  }
+}
