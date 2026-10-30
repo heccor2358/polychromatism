@@ -1,0 +1,12 @@
+{
+	"type": "liquid",
+	"gas": true,
+	"coolant": false,
+	"name": "ammonium chloride",
+	"flammability": 0.2,
+	"heatCapacity": 0.5,
+	"explosiveness": 0.1,
+    "vaporEffect": "vapor",
+	"color": "D3D9BD",
+	"research": "ammonia"
+}

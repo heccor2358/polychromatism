@@ -7,5 +7,6 @@
 	"boilPoint": 0.1,
     "vaporEffect": "vapor",
 	"color": "cdffff",
-	"research": "liquid-air"
+	"research": "liquid-air",
+	"hidden": true
 }

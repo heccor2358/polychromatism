@@ -8,5 +8,6 @@
 	"boilPoint": 0.1,
     "vaporEffect": "vapor",
 	"color": "a1dbcd",
-	"research": "petroleum"
+	"research": "petroleum",
+	"hidden": true
 }
