@@ -1,0 +1,14 @@
+{
+    "name": "molybdenum conveyor",
+    "type": "stackConveyor",
+    "health": 75,
+    "requirements": [
+        "molybdenum/1",
+        "boron/1",
+        "graphite/1",
+    ],
+    "speed": 0.03,
+    "itemCapacity": 10,
+    "category": "distribution",
+    "research": "conveyor"
+}
