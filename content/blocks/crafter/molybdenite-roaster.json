@@ -36,7 +36,6 @@
       },
       {
         "type": "DrawFlame",
-        "suffix": "-top",
         "flameColor": "8D7C7C"
       },
       {

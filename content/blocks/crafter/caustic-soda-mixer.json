@@ -8,7 +8,6 @@
   "requirements": [
     "lead/20",
     "nickel/25", 
-    "silicon/10",
     "graphite/30"
   ],
   "craftTime": 60,

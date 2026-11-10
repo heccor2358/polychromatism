@@ -8,8 +8,7 @@
   "hasItems": true,
   "requirements": [
     "lead/35",
-    "silicon/50",
-    "graphite/45",
+    "graphite/50",
     "copper/25"
   ],
   "craftTime": 120,

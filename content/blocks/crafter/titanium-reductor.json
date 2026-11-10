@@ -1,0 +1,35 @@
+{
+  "name": "titanium reductor",
+  "type": "genericCrafter",
+  "health": 210,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "metaglass/25",
+    "nickel/35",
+    "chromo-nickel-alloy/40",
+    "graphite/90",
+    "silicon/60"
+  ],
+  "craftTime": 80,
+  "consumes": {
+    "power": 3.3,
+    "items": {
+      "items": [
+        "magnesium/3"
+      ]
+    },
+    "liquid": {
+      "liquid": "titanium-tetrachloride",
+      "amount": 0.2
+    }
+  }
+  "category": "crafting",
+  "outputItems": [ 
+    "titanium/2",
+    "magnesium-chloride/3"
+  ],
+  "research": "rutile-chlorinator"
+}

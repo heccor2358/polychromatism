@@ -1,0 +1,39 @@
+{
+  "name": "rutile chlorinator",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "rotate": true,
+  "rotateDraw": false,
+  "requirements": [
+    "copper/50",
+    "metaglass/25",
+    "chromo-nickel-alloy/35",
+    "alumina/30",
+    "silicon/50"
+  ],
+  "craftTime": 40,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        "rutile/2",
+        "coal/1"
+      ]
+    },
+    "liquid": {
+      "liquid": "chlorine",
+      "amount": 0.2
+    }
+  }
+  "category": "crafting",
+  "liquidOutputDirections": [0, 1],
+  "outputLiquids": [ 
+    "titanium-tetrachloride/0.2",
+    "carbon-dioxide/0.4"
+  ],
+  "research": "hydrogen-chloride-oxidizer"
+}

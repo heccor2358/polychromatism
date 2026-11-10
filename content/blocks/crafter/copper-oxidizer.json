@@ -34,7 +34,6 @@
       },
       {
         "type": "DrawFlame",
-        "suffix": "-top",
         "flameColor": "8295C8"
       },
       {

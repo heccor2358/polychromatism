@@ -34,19 +34,6 @@
         "items": [
           "chromo-molybdenum-alloy/2"
         ]
-      }, 
-      "drawer": {
-        "type": "drawMulti", 
-        "drawer": [
-          {
-            "type": " DrawDefault",
-          }, 
-          {
-            "type": "DrawFlame",
-            "suffix": "-top",
-            "flameColor": "E0EFFFFF"
-          }
-        ]
       }
     }, 
     {
@@ -67,19 +54,6 @@
       "output": {
         "items": [
           "chromo-nickel-alloy/3"
-        ]
-      }, 
-      "drawer": {
-        "type": "drawMulti", 
-        "drawer": [
-          {
-            "type": " DrawDefault",
-          }, 
-          {
-            "type": "DrawFlame",
-            "suffix": "-top",
-            "flameColor": "E0EFFFFF"
-          }
         ]
       }
     }

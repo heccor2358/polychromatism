@@ -21,13 +21,49 @@
         "amount": 0.4
       },
       {
-        "liquid": "carbon-dioxide",
-        "amount": 0.4
-       },
-      {
         "liquid": "ammonia",
         "amount": 0.4
-       }
+      },
+      {
+        "liquid": "carbon-dioxide",
+        "amount": 0.4
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "brine",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "ammonia",
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-mid-1",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "carbon-dioxide",
+      },
+      {
+       "type": "DrawRegion",
+       "suffix": "-mid-2",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "ammonium-chloride",
+      },
+      {
+        "type": "DrawDefault"
+      },
     ]
   },
   "category": "crafting",

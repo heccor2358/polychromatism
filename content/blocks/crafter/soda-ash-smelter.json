@@ -27,6 +27,34 @@
       ]
     }
   },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+       "type": "DrawRegion",
+       "suffix": "-bottom",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "steam",
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "carbon-dioxide",
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "E6C3C3"
+      }
+    ]
+  },
   "category": "crafting",
   "liquidOutputDirections": [0, 2],
   "outputItem": "sodium-carbonate/1",

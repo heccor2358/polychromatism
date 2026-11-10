@@ -34,7 +34,7 @@
   "category": "crafting",
   "liquidOutputDirections": [0, 1],
   "outputLiquids": [
-    "hydrogen/0.6",
+    "hydrogen/0.45",
     "carbon-dioxide/0.15"
   ],
   "drawer": {

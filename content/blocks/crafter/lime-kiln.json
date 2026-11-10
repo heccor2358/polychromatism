@@ -7,15 +7,17 @@
   "hasItems": true,
   "hasLiquids": true,
   "requirements": [
-    "copper/30",
-    "graphite/45"
+    "copper/45",
+    "graphite/20"
   ],
-  "craftTime": 60,
+  "craftTime": 120,
+  /*"maxEfficiency": 1,
+  "heatRequirement": 4,*/
   "consumes": {
-    "power": 1,
+    "power": 0.4,
     "items": {
       "items": [
-        "limestone/2",
+        "limestone/4",
         "coal/1"
       ]
     }
@@ -27,8 +29,7 @@
         "type": "DrawDefault"
       },
       {
-        "type": "DrawFlame",
-        "suffix": "-top",
+        "type": "drawFlame",
         "flameColor": "A3F1B5"
       }
     ]

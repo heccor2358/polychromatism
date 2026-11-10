@@ -1,0 +1,29 @@
+{
+  "name": "magnesium chloride electrolyzer",
+  "type": "genericCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    "graphite/40",
+    "nickel/40",
+    "chromo-nickel-alloy/25",
+    "silicon/50",
+    "metaglass/25"
+  ],
+  "craftTime": 80,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        "magnesium-chloride/3"
+      ]
+    }
+  }
+  "category": "crafting",
+  "outputItem": "magnesium/3",
+  "outputLiquid": "chlorine/0.2",
+  "research": "titanium-reductor"
+}
