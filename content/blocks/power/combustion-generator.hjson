@@ -1,0 +1,5 @@
+itemDurationMultipliers: {
+  pyratite: 3,
+  sulfur: 0.7,
+}
+outputLiquid: carbon-dioxide/0.1

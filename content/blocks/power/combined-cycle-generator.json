@@ -54,4 +54,5 @@
   "ambientSound": "loopSmelter",
   "category": "power",
   "research": "gas-turbine",
+  "buildVisibility": "debugOnly"
 }

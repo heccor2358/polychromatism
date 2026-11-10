@@ -1,0 +1,4 @@
+itemDurationMultipliers: {
+  pyratite: 3,
+  sulfur: 0.7,
+}
