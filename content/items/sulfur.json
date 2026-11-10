@@ -1,0 +1,7 @@
+{
+  "name": "sulfur",
+  "color": "d4ff26",
+  "explosiveness": 0.25,
+  "flammability": 1.25
+  "research": "hydrogen-sulfide"
+}
