@@ -8,5 +8,5 @@
 	"boilPoint": 0.1,
     "vaporEffect": "vapor",
 	"color": "b2c366",
-	//"research": "sulphur"
+	"research": "monel-alloy"
 }

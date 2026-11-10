@@ -7,6 +7,6 @@
 	"heatCapacity": 0.5,
 	"explosiveness": 0.1,
     "vaporEffect": "vapor",
-	"color": "D3D9BD",
+	"color": "BDD9BD",
 	"research": "ammonia"
 }
