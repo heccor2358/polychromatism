@@ -33,7 +33,6 @@
   "boostScale": 1, //how much tile boost, for example 0.5 is two tiles attribute equals to 1 tile boost
   "maxBoost": 4, //how much boost from tiles it can max
   "minEfficiency": 0, //can't be placed if boosted less than x tiles
-  "displayEfficiencyScale": 1,
   "category": "production",
   "outputItem": "spore-pod/3",
   "drawer": {

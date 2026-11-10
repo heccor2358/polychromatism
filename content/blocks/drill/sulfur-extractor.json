@@ -1,0 +1,35 @@
+{
+  "name": "sulfur extractor",
+  "type": "AttributeCrafter",
+  "health": 160,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "attribute": "sulfur",
+  "requirements": [
+    "monel-alloy/45",
+    "lead/30",
+    "metaglass/25",
+    "silicon/30"
+  ],
+  "baseEfficiency": 0,
+  "boostScale": 0.25,
+  "maxBoost": 4,
+  "craftTime": 60,
+  "consumes": {
+    "power": 0.75,
+    "liquids": [
+      {
+        "liquid": "air",
+        "amount": 0.2
+      },
+      {
+        "liquid": "water",
+        "amount": 0.1
+       }
+    ]
+  },
+  "outputItem": "sulfur/1",
+  "category": "production",
+  "research": "hydrogen-sulfide-collector"
+}

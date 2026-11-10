@@ -1,0 +1,40 @@
+{
+  "type": "heatProducer",
+  "name": "coal heater",
+  "description": "maybe?",
+  "category": "production",
+  "requirements": [
+    "copper/25",
+    "nickel/10"
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidOutputs"
+      },
+      {
+        "type": "DrawHeatOutput"
+      }
+    ]
+  },
+  "liquidOutputDirections": [ 2 ],
+  "outputLiquid": "carbon-dioxide/0.05",
+  "consumes": {
+    "items": {
+      "items": [
+        "coal/1"
+      ]
+    }
+  },
+  "rotate": true,
+  "rotateDraw": false,
+  "ignoreLiquidFullness": true,
+  "size": 2,
+  "heatOutput": 2,
+  "craftTime": 240,
+  "ambientSound": "loopSmelter"
+}

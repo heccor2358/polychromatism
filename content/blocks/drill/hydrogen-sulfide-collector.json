@@ -17,7 +17,6 @@
   "boostScale": 0.111112, //how much tile boost, for example 0.5 is two tiles attribute equals to 1 tile boost
   "maxBoost": 2, //how much boost from tiles it can max
   "minEfficiency": 9, //can't be placed if boosted less than x
-  "displayEfficiencyScale": 1,
   "category": "production",
   "outputLiquid": "hydrogen-sulfide/0.4",
   "drawer": {
